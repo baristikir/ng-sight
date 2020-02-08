@@ -124,8 +124,13 @@
               "devServerTarget": "NgSight:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "NgSight"
 }

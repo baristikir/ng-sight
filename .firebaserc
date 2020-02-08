@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "smartmirror-7d589": {
+      "hosting": {
+        "NgSight": [
+          "smartmirror-7d589"
+        ]
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ export class SectionProfileComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit() {
   }
 
