@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SectionProfileComponent } from './section-profile/section-profile.component';
 import { SystemWidgetsComponent } from './system-widgets/system-widgets.component';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SystemWidgetsComponent } from './system-widgets/system-widgets.componen
     NavbarComponent,
     SidebarComponent,
     SectionProfileComponent,
-    SystemWidgetsComponent
+    SystemWidgetsComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
