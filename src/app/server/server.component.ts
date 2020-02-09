@@ -23,11 +23,11 @@ export class ServerComponent implements OnInit {
     if(isOnline){
       this.serverInput.isOnline = true;
       this.color = '#66BB6A';
-      this.buttonText = 'Shut Down';
+      this.buttonText = 'Deactivate';
     } else {
       this.serverInput.isOnline = false;
       this.color = '#FF6B6B'
-      this.buttonText = 'Start';
+      this.buttonText = 'Activate';
     }
   }
 
